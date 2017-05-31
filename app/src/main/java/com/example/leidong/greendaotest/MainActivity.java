@@ -123,7 +123,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 增
      */
     private void addUser() {
-        long id = Long.parseLong(editText1.getText().toString().trim());
         String name = editText2.getText().toString().trim();
         int age = Integer.parseInt(editText3.getText().toString().trim());
 
